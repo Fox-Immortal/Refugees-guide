@@ -61,7 +61,7 @@
     <LinearLayout
         android:id="@+id/options_log"
         android:layout_width="match_parent"
-        android:layout_height="74dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="235dp"
         android:gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,13 +118,15 @@
         app:layout_constraintTop_toBottomOf="@+id/options_log"
         app:strokeColor="#FFFFFF"
         app:strokeWidth="1dp" />
+
     <LinearLayout
         android:id="@+id/options_log_ar"
         android:layout_width="match_parent"
-        android:layout_height="74dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="235dp"
         android:gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bottom_light">
 
@@ -201,7 +203,7 @@
         android:gravity="center"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/langage">
 
@@ -241,7 +243,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/langage" />
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
